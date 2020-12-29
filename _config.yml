@@ -1,0 +1,24 @@
+# General Jekyll Config
+highlighter: rouge
+url: http://example.com
+lsi: false
+permalink: /:categories/:year/:month/:title/
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+include:
+  - "_pages"
+  - "_feeds"
+
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+
+
+#title: Another tech blog
+
+#description: > # this means to ignore newlines until "show_excerpts:"
+#  A blog about personal and professional development and advancement within the Information Technology and Information Security space.
+#show_excerpts: false # set to true to show excerpts on the homepage
+
+##url: "https://dennis-perrone.github.io"
+#url: "https://www.dennisperrone.com"
