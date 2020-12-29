@@ -2,19 +2,6 @@
 layout: default
 ---
 <h2>All Tags</h2>
-<ul>
-  {% assign tags_list = site.tags | sort %}
-    {% if tags_list.first[0] == null %}
-      {% for tag in tags_list %}
-        <li><a href="#{{ tags | downcase | downcase | url_escape | strip | replace: ' ', '-' }}">{{ tag | camelcase }} ({{ site.tags[tags].size }})</a></li>
-      {% endfor %}
-    {% else %}
-      {% for tag in tags_list %}
-        <li><a href="#{{ tags[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ tag[0] | camelcase }} ({{ tag[1].size }})</a></li>
-      {% endfor %}
-    {% endif %}
-  {% assign categories_list = nil %}
-  </ul>
 
   {% assign sorted_tags = site.tags | sort %}
   {% for tag in sorted_tags %}
