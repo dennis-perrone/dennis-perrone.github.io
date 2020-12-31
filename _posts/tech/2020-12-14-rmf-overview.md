@@ -9,9 +9,12 @@ excerpt: The first post in a series of posts to outline and serve as an introduc
 ---
 
 # Series Overview
-This post is the first post in a multipart series as an introduction to RMF introduction. I'll come back and update this section with links when I complete the other posts!
-* [**Part I: Overview (Currently Here)**](/tech/2020/12/tech/rmf-overview)
-* [Part II: The 6 Steps](/tech/2020/12/rmf-steps)
+This post is the first post in a multipart series as an introduction to RMF introduction which defines the roles that an individual can play within the RMF ecosystem.
+
+* Risk Management Framework (RMF) Series:
+    * [Part I: Overview](/tech/2020/12/rmf-overview) (**Currently Here**)
+    * [Part II: The 6 Steps](/tech/2020/12/rmf-steps)
+    * [Part III: Positions and Roles](/tech/2020/12/rmf-positions)
 
 The purpose of this post is to layout an overview of the Risk Management Framework, what it is and the supporting publications that make it what it is. 
 
