@@ -16,12 +16,19 @@ layout: default
 </div>
 
 <span>
-  <i class=" fa fa-tag"></i> Tags:  
+  <i class=" fa fa-folder"></i> Categories:  
+  {% for category in page.categories %}
+  {% capture category_name %}{{ category }}{% endcapture %}
+  <a href="/categories/{{ category_name }}">[{{ category_name }}]</i></a>
+  {% endfor %}
+  </span>
+
+<span>
+  <p><i class=" fa fa-tag"></i> Tags:  
   {% for tag in page.tags %}
   {% capture tag_name %}{{ tag }}{% endcapture %}
-  <a href="/tags/#{{ tag_name }}">[{{ tag_name }}]</i></a>
-  {% endfor %}
-  
+  <a href="/tags/{{ tag_name }}">[{{ tag_name }}]</i></a>
+  {% endfor %}</p>
   </span>
 
 <div id="related">
