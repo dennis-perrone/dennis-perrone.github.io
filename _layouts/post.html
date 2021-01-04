@@ -12,7 +12,7 @@ layout: default
 </p>
 
 <div id="post">
-  {{ content }}
+  {% include anchor_headings.html html=content anchorBody="#" %}
 </div>
 
 {% if post.tags.size > 0 %}
