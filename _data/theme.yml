@@ -11,7 +11,7 @@ social:
   #stackexchange: 
   #stackoverflow: 
   twitter: sparks_cyber
-  #facebook: z
+  #facebook: 
   #tumblr: 
   linkedin: dennis-perrone
   #gplus: 
@@ -20,7 +20,8 @@ social:
 
 # "Hi, I'm _______"
 name: Dennis
-email: test@example.com
+author: Dennis Perrone
+email: dennis.perrone@gmail.com
 tagline: "Another take on tech"
 
 # Google Analytics key, leave blank to ignore

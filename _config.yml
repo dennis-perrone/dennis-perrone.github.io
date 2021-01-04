@@ -1,11 +1,12 @@
 # General Jekyll Config
 highlighter: rouge
-url: http://example.com
+url: https://dennisperrone.com
 lsi: false
 permalink: /:categories/:year/:month/:title/
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+title: 
 
 include:
   - "_pages"
