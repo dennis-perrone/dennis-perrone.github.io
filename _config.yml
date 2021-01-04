@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: rouge
-url: https://dennisperrone.com
+url: https://www.dennisperrone.com
 lsi: false
 permalink: /:categories/:year/:month/:title/
 plugins:
@@ -12,7 +12,7 @@ include:
   - "_pages"
   - "_feeds"
 
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+exclude: [LICENSE, CNAME, README.md, .gitignore]
 
 
 #title: Another tech blog
@@ -21,5 +21,4 @@ exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 #  A blog about personal and professional development and advancement within the Information Technology and Information Security space.
 #show_excerpts: false # set to true to show excerpts on the homepage
 
-##url: "https://dennis-perrone.github.io"
-#url: "https://www.dennisperrone.com"
+

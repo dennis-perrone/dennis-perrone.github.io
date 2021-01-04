@@ -5,7 +5,7 @@ layout: default
 <h1 class="title">{{ page.title }}</h1>
 
 <p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} • {% include reading-time.html %} • By: {{ page.author }}
+  Published: {{ page.date | date: "%B %d, %Y" }} • {% include reading-time.html %} • Written By: {{ page.author }}
   <a href="/">
     <i class="home fa fa-home"></i>
   </a>
@@ -14,6 +14,20 @@ layout: default
 <div id="post">
   {{ content }}
 </div>
+
+{% if post.tags.size > 0 %}
+  Tag{% if post.tags.size > 1 %}s{% endif %}:
+  {{ post.tags | sort | join: ", " }}
+{% endif %}
+
+<span>
+  <i class=" fa fa-tag"></i> Tags:  
+  {% for tag in page.tags %}
+  {% capture tag_name %}[{{ tag }}]{% endcapture %}
+  <a href="/tags/#{{ tag_name }}">{{ tag_name }}</i></a>
+  {% endfor %}
+  
+  </span>
 
 <div id="related">
   <h3>Related Posts</h3>
@@ -25,4 +39,3 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-
