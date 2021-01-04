@@ -5,7 +5,7 @@ date:     2020-12-15 17:49:31 -0500
 category: career
 tags:     [project-management, professional-development, certifications]
 author:   Dennis Perrone
-excerpt:  An overview of my thoughts, opinions, and reasoning behind wanting to enterain a project management career path.
+excerpt:  An overview of my thoughts, opinions, and reasoning behind wanting to entertain a project management career path.
 classes:  wide
 ---
 

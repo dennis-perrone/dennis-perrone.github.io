@@ -23,8 +23,8 @@ layout: default
 <span>
   <i class=" fa fa-tag"></i> Tags:  
   {% for tag in page.tags %}
-  {% capture tag_name %}[{{ tag }}]{% endcapture %}
-  <a href="/tags/#{{ tag_name }}">{{ tag_name }}</i></a>
+  {% capture tag_name %}{{ tag }}{% endcapture %}
+  <a href="/tags/#{{ tag_name }}">[{{ tag_name }}]</i></a>
   {% endfor %}
   
   </span>
