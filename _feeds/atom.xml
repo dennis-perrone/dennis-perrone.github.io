@@ -3,13 +3,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>The blog of {{ site.data.theme.name }}</title>
+ <title>{{ site.data.theme.name }}' Thoughts on Tech and Cyber Security</title>
  <link href="{{ site.url }}/atom.xml" rel="self"/>
  <link href="{{ site.url }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}</id>
  <author>
-   <name>{{ site.data.theme.name }}</name>
+   <name>{{ site.data.theme.author }}</name>
    <email>{{ site.data.theme.email }}</email>
  </author>
 

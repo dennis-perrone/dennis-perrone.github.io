@@ -6,7 +6,7 @@ permalink: /:categories/:year/:month/:title/
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-title: 
+title: Dennis' Thoughts on Tech and Cyber Security
 
 include:
   - "_pages"
