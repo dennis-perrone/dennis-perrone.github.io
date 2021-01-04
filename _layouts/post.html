@@ -12,13 +12,8 @@ layout: default
 </p>
 
 <div id="post">
-  {% include anchor_headings.html html=content anchorBody="#" %}
+  {{ content }}
 </div>
-
-{% if post.tags.size > 0 %}
-  Tag{% if post.tags.size > 1 %}s{% endif %}:
-  {{ post.tags | sort | join: ", " }}
-{% endif %}
 
 <span>
   <i class=" fa fa-tag"></i> Tags:  
